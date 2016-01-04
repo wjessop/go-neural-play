@@ -12,5 +12,10 @@ deps:
 		go get -u github.com/cheggaaa/pb; \
 	)
 
-vim: 
+vim:
 	vim .
+
+sample_manifests:
+	find ./json/sample -name '*js' > /tmp/jsfiles 2>&1
+	find ./json/sample -name '*go' > /tmp/gofiles 2>&1
+	find ./json/sample -name '*rb' > /tmp/rbfiles 2>&1
