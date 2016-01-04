@@ -47,7 +47,7 @@ var (
 	rbsamplePath = "./json/sample/sample2.rb"
 	jssamplePath = "./json/sample/sample.js"
 
-	sampleLen    = 200
+	sampleLen     = 200
 	learningSpeed = 0.1
 )
 
